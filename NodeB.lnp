@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "can2_driver.o" "can_main.o" "can2_interrupt.o" "delay_gen.o" "uart0_interuupt.o" "uart_driver.o" --strict --scatter "NodeB.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\NodeB.map" -o "NodeB.axf"

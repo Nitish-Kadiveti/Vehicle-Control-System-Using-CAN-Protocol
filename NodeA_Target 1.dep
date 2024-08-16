@@ -1,0 +1,15 @@
+Dependencies for Project 'NodeA', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x6637C3BB)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\can1_driver.c)(0x6637C3BA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\can1_driver.o --omf_browse .\can1_driver.crf --depend .\can1_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header.h)(0x6637C3B9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EFE64)
+F (.\can_test.c)(0x6637C3BB)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\can_test.o --omf_browse .\can_test.crf --depend .\can_test.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header.h)(0x6637C3B9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EFE64)
+F (.\header.h)(0x6637C3B9)()
+F (.\uart_driver.c)(0x6637C3B3)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\uart_driver.o --omf_browse .\uart_driver.crf --depend .\uart_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (header.h)(0x6637C3B9)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599EFE64)

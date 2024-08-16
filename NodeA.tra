@@ -1,0 +1,22 @@
+*** Creating Trace Output File 'NodeA.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"can1_driver.o"'
+### List of Objects: adding '"can_test.o"'
+### List of Objects: adding '"uart_driver.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "can1_driver.o" "can_test.o" "uart_driver.o" --strict --scatter "NodeA.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\NodeA.map" -o "NodeA.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'NodeA.axf'
+### ADS-LD Command File: 'NodeA.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'NodeA.lnp', Handle=0x000002FC
+### Writing '.lnp' file
+### ADS-LD Command file 'NodeA.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

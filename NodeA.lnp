@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\can1_driver.o"
+".\can_test.o"
+".\uart_driver.o"
+--strict --scatter ".\NodeA.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\NodeA.map" -o .\NodeA.axf
